@@ -1,0 +1,15 @@
+1. Dla którego z gniazd czas jest krótszy?
+UDP zazwyczaj ma krótszy czas przesyłu niż TCP.
+
+2. Z czego wynika krótszy czas?
+UDP nie wymaga nawiązywania połączenia ani potwierdzeń odbioru pakietów, co eliminuje dodatkowe opóźnienia związane z kontrolą transmisji.
+
+3. Jakie są zalety / wady obu rozwiązań?
+
+TCP:
+✅ Zapewnia niezawodność, kolejność pakietów, ponowne transmisje
+❌ Wolniejszy przez dodatkowe operacje potwierdzające
+
+UDP:
+✅ Szybszy, idealny do transmisji w czasie rzeczywistym (np. VoIP, gry)
+❌ Brak gwarancji dostarczenia pakietów, mogą zgubić się lub przyjść w złej kolejności
